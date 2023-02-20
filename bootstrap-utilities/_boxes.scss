@@ -1,0 +1,32 @@
+.box {
+  padding: .5rem;
+  @extend .bg-light;
+  @extend .rounded;
+  @extend .shadow;
+
+  .counter {
+    min-width: 4rem;
+    font-size: 2rem;
+    font-weight: $body-font-weight-light;
+  }
+
+  &.striped {
+    $stripes-color: rgba($bianco, .05);
+    $stripes-size: 30px;
+    background-image:
+      repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent $stripes-size,
+        $stripes-color $stripes-size,
+        $stripes-color ($stripes-size * 2)
+      );
+  }
+}
+
+.box-outline {
+  @extend .rounded;
+  @extend .border;
+  @extend .border-white;
+  padding: .5rem;
+}
