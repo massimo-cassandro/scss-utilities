@@ -1,7 +1,7 @@
 {
   "name": "@massimo-cassandro/scss-utilities",
   "description": "Collection of scss utilities",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "author": "Massimo Cassandro",
   "publishConfig": {
@@ -43,7 +43,6 @@
     ],
     "ignorePatterns": []
   },
-
   "files": [
     "scss-*/**/*.{scss,css,map}",
     "bootstrap-utilities/**/*.{scss,css,map}"
