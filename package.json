@@ -49,6 +49,6 @@
   ],
   "devDependencies": {
     "@massimo-cassandro/dev-utilities": "^1.9.4",
-    "@massimo-cassandro/linters-config": "^1.2.5"
+    "@massimo-cassandro/linters-config": "^1.6.0"
   }
 }
