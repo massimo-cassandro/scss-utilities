@@ -96,7 +96,7 @@ label {
   // must not be applied to fieldset containers
   &.required:not(.disabled),
   .form-group.required:not(.disabled) &,
-  .form-group:has([required]:not([disabled])):not(.disabled) &,
+  .form-group:has([required]):not(.disabled):not(:has([required][disabled])) &,
   fieldset:not([disabled]) &.required:not(.disabled),
   fieldset:not([disabled]) .required:not(.disabled) & {
     @extend %form-elements-required;
