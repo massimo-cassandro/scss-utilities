@@ -1,3 +1,3 @@
-# scss-utilities
+# css & scss utilities
 
-Collection of scss utilities
+Collection of css & scss utilities

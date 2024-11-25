@@ -95,7 +95,8 @@ label {
   // required class applied directly to the label
   // must not be applied to fieldset containers
   &.required:not(.disabled),
-  div.required:not(.disabled) &,
+  .form-group.required:not(.disabled) &,
+  .form-group:has([required]:not([disabled])):not(.disabled) &,
   fieldset:not([disabled]) &.required:not(.disabled),
   fieldset:not([disabled]) .required:not(.disabled) & {
     @extend %form-elements-required;
